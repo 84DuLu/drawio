@@ -1,9 +1,54 @@
-<mxfile host="app.diagrams.net" modified="2023-12-28T08:22:22.022Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" version="22.1.15" etag="ICnoPinUAW5H5r18hvxh" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-28T08:27:02.037Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="HSfElXR7L0uWuW1pXgX2" version="22.1.15" type="github">
   <diagram name="Page-1" id="Em_b1xfS9bzNmXgElhA0">
-    <mxGraphModel>
+    <mxGraphModel dx="819" dy="459" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="sP0mZfxayh1fCY8iudzB-1" value="隧道信息管理系统" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="400" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="sP0mZfxayh1fCY8iudzB-2" value="隧道" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="375" y="280" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="sP0mZfxayh1fCY8iudzB-3" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="sP0mZfxayh1fCY8iudzB-2" target="sP0mZfxayh1fCY8iudzB-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="470" y="370" as="sourcePoint" />
+            <mxPoint x="520" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sP0mZfxayh1fCY8iudzB-4" value="隧道信息" style="edgeLabel;html=1;align=left;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="sP0mZfxayh1fCY8iudzB-3">
+          <mxGeometry x="0.0821" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sP0mZfxayh1fCY8iudzB-5" value="管理员" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="400" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="sP0mZfxayh1fCY8iudzB-6" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="sP0mZfxayh1fCY8iudzB-5" target="sP0mZfxayh1fCY8iudzB-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="280" y="500" as="sourcePoint" />
+            <mxPoint x="330" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sP0mZfxayh1fCY8iudzB-7" value="隧道信息、&lt;br&gt;养护信息、&lt;br&gt;管理员信息" style="edgeLabel;html=1;align=center;verticalAlign=top;resizable=0;points=[];" vertex="1" connectable="0" parent="sP0mZfxayh1fCY8iudzB-6">
+          <mxGeometry x="-0.0052" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sP0mZfxayh1fCY8iudzB-8" value="养护记录" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="590" y="400" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="sP0mZfxayh1fCY8iudzB-9" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="sP0mZfxayh1fCY8iudzB-8" target="sP0mZfxayh1fCY8iudzB-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="470" y="550" as="sourcePoint" />
+            <mxPoint x="520" y="500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sP0mZfxayh1fCY8iudzB-10" value="养护信息" style="edgeLabel;html=1;align=center;verticalAlign=top;resizable=0;points=[];" vertex="1" connectable="0" parent="sP0mZfxayh1fCY8iudzB-9">
+          <mxGeometry x="0.0675" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
